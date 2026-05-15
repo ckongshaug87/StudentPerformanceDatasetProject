@@ -8,7 +8,7 @@ This project explores trends in student performance and higher education
    pip install -r requirements.txt
 3. Open `student_performance_data_project.ipynb` in Jupyter Notebook or JupyterLab.
  
-## Example Output
+## Analysis So Far
 So far the analysis is showing that the Kaggle Datset is very synthetic and manufactured so I am switching to analyze a College Board dataset as you can see in my notebook and markdown cells
  
 ## Data Sources
