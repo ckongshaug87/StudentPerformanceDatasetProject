@@ -48,6 +48,10 @@ C2024a
 •	https://nces.ed.gov/ipeds/datacenter/DataFiles.aspx
 •	Fields: UNITID, CIPCODE, AWLEVEL, CTOTALW ,CTOTALM, CTOTALT
 
+### Database Diagram
+
+![ERD Diagram](erd_diagram/database_diagram.png)
+
  
 ## Author
 Chrissy Kongshaug
