@@ -52,6 +52,10 @@ C2024a
 
 ![ERD Diagram](erd_diagram/database_diagram.png)
 
+### Chart
+
+![Average Debt vs Average Earnings by School Type](chart_images/averagedebtvsavgearnings.png)
+
  
 ## Author
 Chrissy Kongshaug
