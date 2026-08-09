@@ -54,7 +54,7 @@ C2024a
 
 ### Chart
 
-![Average Debt vs Average Earnings by School Type](chart_images\avgdebtvsavgearnings.png)
+![Average Debt vs Average Earnings by School Type](chart_images/avgdebtvsavgearnings.png)
 
  
 ## Author
