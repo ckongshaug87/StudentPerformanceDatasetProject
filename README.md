@@ -60,7 +60,7 @@ Recipients of a Pell Grant also had an earnings gap compared to those that did n
 
 ![ERD Diagram](erd_diagram/database_diagram.png)
 
-One institution can have many awards, one program can have many awards and one institution can have many programs. The primary key for the institutions table is the school id, the primary key for the awards table is the award_id, and the primary key for the programs table is program_id.
+One institution can have many awards, one program can have many awards and one institution can have many programs. The primary key for the institutions table is the school id, the primary key for the awards table is the award_id, and the primary key for the programs table is program_id. Institutions are related to programs through a foreign key (school_id). Programs are related to awards through a foreign key (program_id).
 
 ### Chart
 
