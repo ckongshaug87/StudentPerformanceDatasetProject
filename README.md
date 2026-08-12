@@ -35,7 +35,7 @@ This project examines projected earnings for male and female students after coll
 ### C2024a
 - **Source:** National Center for Education Statistics
 - **Link:** https://nces.ed.gov/ipeds/datacenter/DataFiles.aspx
-- **Fields:**UNITID, CIPCODE, AWLEVEL, CTOTALW ,CTOTALM, CTOTALT
+- **Fields:** UNITID, CIPCODE, AWLEVEL, CTOTALW ,CTOTALM, CTOTALT
 
 ## Research Objectives
 
@@ -50,7 +50,7 @@ This project examines projected earnings for male and female students after coll
 
 ## Analysis 
 
-I really designed this project to determine which schools and degrees offer the best bang for their buck currently. In other words, which score garners an individual the highest salary with the least amount of debt. What I learned through the data analysis work is that Public universities consistently offer the least amount of debt coupled with the highest earnings. They don't necessarily delivery the lowest debt overall (Private For-Profit schools do) but they do help students get a high salary. Private For-Profit schools might have a lower debt ratio but they also earn a student a lower salary.
+I really designed this project to determine which schools and degrees offer the best bang for their buck. In other words, which school garners an individual the highest salary with the least amount of debt. What I learned through completing this project is that Public universities consistently offer the least amount of debt coupled with the highest earnings. They don't necessarily delivery the lowest debt overall (Private For-Profit schools do) but they do help students get a high salary. Private For-Profit schools might have a lower debt ratio but they also earn a student a lower salary.
 
 I was not surprised but I was disappointed to learn that women do make less than men for similar degrees. The earning disparity is the greatest for higher level degrees including dentistry, nursing and business degrees. Dentistry has a whopping 60K income disparity. That's significant.
 
