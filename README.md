@@ -4,13 +4,16 @@ This project examines projected earnings for male and female students after coll
  
 ## How to Use
 1. Clone this repository.
-2. Create and activate a virtual environment
-   - python -m venv venv
-   - source venv/Scripts/activate
-2. Install the required Python packages:  
-   pip install -r requirements.txt
-   (requirements-lockedin.txt will show the state of my personal environment when I made this project)
-3. Open `student_performance_data_project.ipynb` in Jupyter Notebook or JupyterLab.
+2. Create and activate a virtual environment:
+   - `python -m venv venv`
+   - **Windows:** `venv\Scripts\activate`
+   - **Mac/Linux:** `source venv\bin\activate`
+3. Install the required Python packages:
+   `pip install -r requirements.txt`
+   (`requirements-lockedin.txt` will show the state of my personal environment when I made this project)
+4. Open `student_performance_data_project.ipynb` in Jupyter Notebook or JupyterLab.
+5. Once finished deactivate the virtual environment:
+   `deactivate`
  
  
 ## Data Sources
