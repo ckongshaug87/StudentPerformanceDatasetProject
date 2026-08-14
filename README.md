@@ -1,6 +1,6 @@
 # Student Performance Project
  
-This project examines projected earnings for male and female students after college graduation. The project will explore which degree has the highest payoff and whether men or women fare better in salary. It will also explore whether recipients of Pell Grants (grants given to students with dire financial need) are able to obtain the same salaries as those without and whether variances are degree specific. The findings of this project will determine the best places to allocate federal funding for future students, aiding incoming freshmen as they decide where to attend school and what to study. As AI looms upon us all, this is ever more prevalent.
+This project examines projected earnings for male and female students after college graduation. It will explore which degree has the highest payoff and whether men or women fare better with earning potential. It will also investigate whether recipients of Pell Grants (grants given to students with dire financial need) are able to obtain the same salaries as those without and whether variances are degree specific. The findings of this project will determine the best places to allocate federal funding for future students, aiding incoming freshmen as they decide where to attend school and what to study. As AI looms upon us all, this is ever more prevalent.
  
 ## How to Use
 1. Clone this repository.
@@ -9,6 +9,7 @@ This project examines projected earnings for male and female students after coll
    - source venv/Scripts/activate
 2. Install the required Python packages:  
    pip install -r requirements.txt
+   (requirements-lockedin.txt will show the state of my personal environment when I made this project)
 3. Open `student_performance_data_project.ipynb` in Jupyter Notebook or JupyterLab.
  
  
@@ -50,11 +51,11 @@ This project examines projected earnings for male and female students after coll
 
 ## Analysis 
 
-I really designed this project to determine which schools and degrees offer the best bang for their buck. In other words, which school garners an individual the highest salary with the least amount of debt. What I learned through completing this project is that Public universities consistently offer the least amount of debt coupled with the highest earnings. They don't necessarily delivery the lowest debt overall (Private For-Profit schools do) but they do help students get a high salary. Private For-Profit schools might have a lower debt ratio but they also earn a student a lower salary.
+I really designed this project to determine which schools and degrees offer the best bang for their buck. In other words, which school garners an individual the highest salary with the least amount of debt. What I learned through completing this project is that public universities consistently offer the least amount of debt coupled with the highest earnings. They don't necessarily delivery the lowest debt overall (Private For-Profit schools do) but they do help students get a high salary. Private For-Profit schools might have a lower debt ratio but they also earn a student a lower salary.
 
-I was not surprised but I was disappointed to learn that women do make less than men for similar degrees. The earning disparity is the greatest for higher level degrees including dentistry, nursing and business degrees. Dentistry has a whopping 60K income disparity. That's significant.
+I was not surprised, but I was disappointed to learn that women do make less than men for similar degrees. The earning disparity is the greatest for higher level degrees including dentistry, nursing and business degrees. Dentistry has a whopping 60K income disparity. That's significant.
 
-Women do win more awards though! Even though they have the highest income disparity. It was definitely good to see that women are being recognized. Women won 30 % more awards than men!
+Women do win more awards though! It is worth noting that an award within the confines of this project also includes degrees conferred.  Even though women have the highest income disparity, it is also heartwarming to definitely good to see that women are being recognized. And women have the drive to attend school whether its for a Bachelors or for a trade (e.g. Cosmetology).  Women won 30 % more awards than men!
 
 Recipients of a Pell Grant also had an earnings gap compared to those that did not receive one. The highest gap was for technical degrees including Computer Science, Chemistry and Legal degrees. HR also had a significant gap in earnings. This gap needs to be explored more to determine why it exists and what can be done to decrease it.
 
@@ -63,7 +64,7 @@ Recipients of a Pell Grant also had an earnings gap compared to those that did n
 
 ![ERD Diagram](erd_diagram/database_diagram.png)
 
-One institution can have many awards, one program can have many awards and one institution can have many programs. The primary key for the institutions table is the school id, the primary key for the awards table is the award_id, and the primary key for the programs table is program_id. Institutions are related to programs through a foreign key (school_id). Programs are related to awards through a foreign key (program_id).
+One institution can have many awards, one program can have many awards and one institution can have many programs. The primary key for the institutions table is the school id, the primary key for the awards table is the chool_id, cip_code, award_level, and the primary key for the programs table is school_id, cip_code, cred_level. Institutions are related to programs through a foreign key (school_id). Programs are related to awards through a foreign key (program_id).
 
 ### Chart
 
