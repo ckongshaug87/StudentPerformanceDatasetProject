@@ -49,7 +49,7 @@ This project examines projected earnings for male and female students after coll
 - Is there any effect of Pell grants on the outcome of earnings?
 - What is the difference for men and for women?
 
-## Analysis 
+## Analysis and Conclusions
 
 I really designed this project to determine which schools and degrees offer the best bang for their buck. In other words, which school garners an individual the highest salary with the least amount of debt. What I learned through completing this project is that public universities consistently offer the least amount of debt coupled with the highest earnings. They don't necessarily delivery the lowest debt overall (Private For-Profit schools do) but they do help students get a high salary. Private For-Profit schools might have a lower debt ratio but they also earn a student a lower salary.
 
@@ -69,6 +69,10 @@ One institution can have many awards, one program can have many awards and one i
 ### Chart
 
 ![Average Debt vs Average Earnings by School Type](chart_images/avgdebtvsavgearnings.png)
+
+### AI Usage
+
+Claude AI was used to help format my SQL tables and split my datasets into smaller files. It is acknowledged in my notebook if AI was used.
 
  
 ## Author
