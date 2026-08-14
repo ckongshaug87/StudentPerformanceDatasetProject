@@ -6,8 +6,8 @@ This project examines projected earnings for male and female students after coll
 1. Clone this repository.
 2. Create and activate a virtual environment:
    - `python -m venv venv`
-   - **Windows:** `venv\Scripts\activate`
-   - **Mac/Linux:** `source venv\bin\activate`
+   - **Windows:** `source venv/Scripts/activate`
+   - **Mac/Linux:** `source venv/bin/activate`
 3. Install the required Python packages:
    `pip install -r requirements.txt`
    (`requirements-lockedin.txt` will show the state of my personal environment when I made this project)
@@ -67,7 +67,7 @@ Recipients of a Pell Grant also had an earnings gap compared to those that did n
 
 ![ERD Diagram](erd_diagram/database_diagram.png)
 
-One institution can have many awards, one program can have many awards and one institution can have many programs. The primary key for the institutions table is the school id, the primary key for the awards table is the chool_id, cip_code, award_level, and the primary key for the programs table is school_id, cip_code, cred_level. Institutions are related to programs through a foreign key (school_id). Programs are related to awards through a foreign key (program_id).
+One institution can have many awards, and one institution can have many programs. The primary key for the institutions table is school_id. The primary key for the awards table is award_id, with a unique constraint on school_id, cip_code, and award_level. The primary key for the programs table is program_id, with school_id as a foreign key. Institutions are related to programs through a foreign key (school_id), and institutions are related to awards through a foreign key (school_id). 
 
 ### Chart
 
